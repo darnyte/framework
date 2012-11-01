@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hive">
+      <UniqueIdentifier>{a589313a-b121-4e02-ab63-1e9e3911fc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{71b9b444-3acb-4492-9ee1-25a6fd10f55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeviceHive">
+      <UniqueIdentifier>{c3a3ad6e-ef5d-4187-a7fa-ee60314b2da3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\Examples\s00.hpp">
+      <Filter>Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\Examples\s01.hpp">
+      <Filter>Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\bstream.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\defs.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\dump.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\http.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\json.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\log.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\misc.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\pch.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\hive\swab.hpp">
+      <Filter>hive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Framework\Source\Include\DeviceHive\cloud6.hpp">
+      <Filter>DeviceHive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+/distfiles
+/build
+/Include/boost*
+/Include/openssl*
+/Include*
+/Lib*

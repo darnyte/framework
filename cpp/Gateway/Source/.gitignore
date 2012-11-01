@@ -1,0 +1,18 @@
+# Linux output
+/simple
+/xtest*
+*.o
+
+
+# Visual Studio
+/ipch
+/bin
+/obj
+/*.opensdf
+/*.sdf
+/*.suo
+*.user
+
+
+# other
+*.log
